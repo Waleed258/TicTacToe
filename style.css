@@ -20,7 +20,7 @@ body {
     align-items: center;
     background-color: rgba(255, 255, 255, 0.95);
     border-radius: 15px;
-    padding: 30px 20px;
+    padding: 0px 20px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Softer shadow for a clean look */
     max-width: 600px;
     width: 100%;
@@ -85,7 +85,7 @@ body {
 }
 
 .restart-btn {
-    margin-top: 20px;
+    margin-top: 12px;
     padding: 15px 30px;
     font-size: 1.2rem;
     background-color: #007BFF;
@@ -101,7 +101,9 @@ body {
     background-color: #0056b3;
     transform: scale(1.05); /* Zoom effect */
 }
-
+#out-come-box {
+    margin-top: 20px;
+}
 /* Responsive Adjustments */
 @media (max-width: 768px) {
     .title {
@@ -155,5 +157,8 @@ body {
     .restart-btn {
         font-size: 0.9rem;
         padding: 8px 16px;
+    }
+    #out-come-box {
+        margin-top: 10px;
     }
 }
